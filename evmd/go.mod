@@ -271,7 +271,6 @@ replace (
 	// Pin this pebble version to avoid breaking compilation of geth
 	github.com/cockroachdb/pebble => github.com/cockroachdb/pebble v0.0.0-20230928194634-aa077af62593
 	github.com/cosmos/evm => ../
-	github.com/cosmos/evm/evmd => ./evmd
 	// use Cosmos geth fork
 	github.com/ethereum/go-ethereum => github.com/cosmos/go-ethereum v1.15.11-cosmos-0
 	// Security Advisory https://github.com/advisories/GHSA-h395-qcrw-5vmq
